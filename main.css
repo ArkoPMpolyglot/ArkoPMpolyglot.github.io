@@ -1,76 +1,155 @@
-p{	font: 40px bold ;
+.heading{
+	height: 100px;
+	width: 100%;
+	
+	background: linear-gradient( to right, red,yellow);
+}
+.data{
+	font-size: 50px;
 	font-family: helvetica;
-	color: white;
-	background-color: #1c52a8;
-	margin: 0px;
+	position: absolute;
 	padding-top: 20px;
-	padding-left: 60px;
-	padding-bottom: 20px;
-	/*margin-bottom: 50px;*/
-}
-#mail{
-	position: absolute;
-	left: 900px;
-	background-color: #1c52a8;
-	font :bold;
-	color: white;
-}
-#mail1{
-	position: absolute;
-	left: 1100px;
-	background-color: #1c52a8;
-	font :bold;
-	color: white;
-}
-
-input[type="Submit"]{
-	color: #fff ;
-	border: 0px;
-	background: #0a3d91;
-}
-
-#zweiparten{
-	position: absolute;
-	/*margin-top: 50px solid #cbdbf4;*/
-	padding-top: 25px solid #cbdbf4;
-	padding-left: 20px;
-	margin-right: 400px;
-	background-color:#cbdbf4;
-	padding-bottom: 20px;
-
-	font: bold 20px;
-	height: 500px;
-	font-family: helvetica; 
-}
-#dreiparten{
-	position: absolute;
-	background-color: #cbdbf4;
 	padding-left: 400px;
-	width:480px;
-	height: 500px;
-	border-top:100px; 
+	padding-bottom: 30px;
+}
+.Menuheading{
+	height: 100px;
+	width: 100%;
+	/*border-top: 20px;
+	margin: 16px;*/
+	background: linear-gradient(to left,#26e00d,#e8e409)
+}
+.data1{
+	font-size: 40px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	color: white;
 
-	padding-top: 0px;
-	padding-bottom: 20px;
-	font: 16px bold;
+}
+.links{
+	background:linear-gradient(to right, #9eebf7,white);
+	width: 100%;
+	padding-top: 40px;
+	height: 100%;
+	/*font-size: 50px;*/
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+.data2{
+	font-size: 50px;
+}
+.hobbyheadingspace{
+	height: 100px;
+	width: 100%;
+	/*border-top: 20px;
+	margin: 16px;*/
+	background: linear-gradient(to left,#26e00d,#e8e409)
+}
+.academicsheadingspace{
+	height: 100px;
+	width: 100%;
+	/*border-top: 20px;
+	margin: 16px;*/
+	background: linear-gradient(to left,#26e00d,#e8e409)
+}
+.hobbyheading{
+	font-size: 40px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	color: white;
+
+}
+.academicsheading{
+	font-size: 40px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	color: white;
+
+}
+.aboutheadingspace{
+	height: 100px;
+	width: 100%;
+	/*border-top: 20px;
+	margin: 16px;*/
+	background: linear-gradient(to right,#26e00d,#e8e409)
+}
+.aboutheading{
+	font-size: 40px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	color: blue;
+
+}
+.contactheadingspace{
+	height: 100px;
+	width: 100%;
+	/*border-top: 20px;
+	margin: 16px;*/
+	background: linear-gradient(to right,#26e00d,#e8e409)
+}
+.contactheading{
+	font-size: 40px;
+	font-family: verdana;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	color: blue;
+}
+.hobbydata{
+	background:linear-gradient(to left,#6dd9ed,#ef2fd9);
+	height: 600px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.aboutdata{
+	background: linear-gradient(to right,#d81164,#f7f302);
+	height: 600px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.contactdata{
+	background: linear-gradient(to right,#d81164,#f7f302);
+	height: 600px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.academicdata{
+	background: linear-gradient(to left,#6dd9ed,#ef2fd9);
+	height: 600px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#contactline{
+	font-size: 30px ;
+	font: bold;
 	font-family: helvetica;
 }
-.information{ font: 5px; }
-#mail2{
-	width: 50px;
+#profile_photo{
+	float: right;
+	padding-top: 300px;
+	padding-right: 50px;
 }
-.information{
-font :10px;
+#institute_photo{
+	float: right;
+	padding-top: 130px;
+	padding-right: 150px;
 }
-input[type="Submit"]#second{
-	background-color: green;
-	 color: white 20px bold;
-	 border: 0px;
-	 padding-top: 5px;
-	 padding-right: 25px;
-	 padding-left: 25px;
-	 padding-bottom: 5px;
+#about_photo{
+	float: right;
+	padding-top: 80px;
+	padding-right: 50px;
 }
-.foot{
-	font: blue 20px;
+#hobby_photo{
+	float: right;
+	padding-top: 50px;
+	padding-right: 50px;
 }
